@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard.component';
 import { ProductsComponent } from './products/products.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { CartComponent } from './cart/cart.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
@@ -13,9 +14,13 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'products',
+        redirectTo: 'home',
         pathMatch: 'full'
       },
+      {
+        path: 'home',
+        component: HomeComponent
+      },              
       {
         path: 'checkout',
         component: CheckoutComponent

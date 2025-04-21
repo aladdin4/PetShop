@@ -12,6 +12,7 @@ import { ProductsComponent } from './products/products.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { CartComponent } from './cart/cart.component';
 import { AddEditProductDialog } from './products/add-edit-product-dialog/add-edit-product.dialog';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AddEditProductDialog } from './products/add-edit-product-dialog/add-edi
     CheckoutComponent,
     CartComponent,
     ProductsComponent,
+    HomeComponent,
     AddEditProductDialog
 
 
