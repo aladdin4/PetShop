@@ -1,0 +1,45 @@
+.icon-center {
+  display: flex;
+  justify-content: center;
+}
+.outer-container{
+    margin-left: 10px;
+}
+.inner-container{
+    padding: 1.5rem
+}
+.boxes-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-left: unset;
+  background: white;
+  height: 90vh;
+  overflow: auto;
+}
+.img-4-container {
+  display: flex;
+  justify-content: space-between;
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
