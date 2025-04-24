@@ -56,7 +56,7 @@ export class CartComponent {
       this.currentUser = user;
     });
     
-    this.title.setTitle('Healthy Cart');
+    this.title.setTitle('PetShop Cart');
   }
 
   removeItem(item: Product) {

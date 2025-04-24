@@ -33,13 +33,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-
-
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-

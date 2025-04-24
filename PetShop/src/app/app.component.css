@@ -2037,14 +2037,10 @@ html {
 .content {
   min-height: 100vh;
   padding: calc(4rem + 2rem) 0 6.375rem 0;
-  padding-bottom: 6rem;
+  padding-bottom: 0px;
 }
 
-@media (min-width: 576px) {
-  .content {
-    padding-bottom: 4rem;
-  }
-}
+
 
 .footer {
   bottom: 0;
@@ -2133,14 +2129,9 @@ html {
 .content {
   min-height: 100vh;
   padding: 4rem 0 6.375rem 0;
-  padding-bottom: 6rem;
+  padding-bottom: 0px;
 }
 
-@media (min-width: 576px) {
-  .content {
-    padding-bottom: 4rem;
-  }
-}
 
 .footer {
   bottom: 0;
@@ -2168,7 +2159,7 @@ html {
     margin-left: 15.875rem;
     min-height: 100vh;
     padding: 4rem 0 6.375rem 0;
-    padding-bottom: 6rem;
+    padding-bottom: 0px;
   }
 
   .navbar-expanded {

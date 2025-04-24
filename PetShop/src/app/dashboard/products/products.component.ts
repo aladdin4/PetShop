@@ -51,7 +51,7 @@ export class ProductsComponent {
 
     this.productsService.getCategories();
 
-    this.title.setTitle('Healthy Products');
+    this.title.setTitle('PetShop Products');
   }
   setActiveCategory(category: string) {
     this.activeCategory = category;

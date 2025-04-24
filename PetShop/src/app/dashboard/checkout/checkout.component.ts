@@ -58,7 +58,7 @@ export class CheckoutComponent {
       this.currentUser = user;
     });
     this.setExpectedDeliveryDate();
-    this.title.setTitle('Healthy Cart');
+    this.title.setTitle('PetShop Cart');
   }
 
   removeItem(item: Product) {

@@ -6,10 +6,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { RouterModule } from '@angular/router';
 import { DeleteConfirmationDialog } from './modals/delete-confirmation-dialog/delete-confirmation.dialog';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [NavbarComponent, DeleteConfirmationDialog],
-  imports: [MaterialModule, ReactiveFormsModule, CommonModule, AccordionModule.forRoot(), FormsModule, RouterModule ],
-  exports: [NavbarComponent]
+  declarations: [NavbarComponent, DeleteConfirmationDialog, FooterComponent],
+  imports: [MaterialModule, ReactiveFormsModule, CommonModule, AccordionModule.forRoot(), FormsModule, RouterModule],
+  exports: [NavbarComponent, FooterComponent]
 })
 export class SharedModule { }
