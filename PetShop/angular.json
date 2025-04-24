@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "petshop": {
+    "PetShop": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/petshop",
+            "outputPath": "dist/PetShop",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [ "zone.js" ],
@@ -80,13 +80,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "petshop:build:production"
+              "buildTarget": "PetShop:build:production"
             },
             "development": {
-              "buildTarget": "petshop:build:development"
+              "buildTarget": "PetShop:build:development"
             },
             "local": {
-              "buildTarget": "petshop:build:local"
+              "buildTarget": "PetShop:build:local"
             }
           },
           "defaultConfiguration": "development"
@@ -94,7 +94,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "petshop:build"
+            "buildTarget": "PetShop:build"
           }
         },
         "test": {
